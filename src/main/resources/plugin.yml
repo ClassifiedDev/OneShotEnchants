@@ -1,0 +1,35 @@
+main: com.oneshotmc.enchants.OneShotEnchants
+version: 2.0.0-beta
+name: OneShotEnchants
+authors: [Classified, JaGv]
+depend: [Factions, mcMMO, Vault, WorldEdit, WorldGuard]
+commands:
+  enchanter:
+    aliases: [ce]
+  tinkerer:
+  alchemist:
+  giveenchant:
+    aliases: [giveenchantment, givece]
+    permission: oneshot.core.admin
+  giveenchantitem:
+    aliases: [givecei, giveceitem]
+    permission: oneshot.core.admin
+  enchants:
+  enchantadmin:
+    aliases: [ceadmin]
+    permission: oneshot.core.admin
+  apply:
+  givecrystal:
+    aliases: [givecrystals]
+    permission: oneshot.core.admin
+  givetracker:
+  splitcrystals:
+    aliases: [wc, withdrawcrysals, splitcrystal, withdrawcrysal, takecrystal, removecrystals]
+    permission: oneshot.core.admin
+  bless:
+  cedebug:
+    aliases: [enchantmentdebug, enchantdebug]
+    permission: oneshot.core.admin
+permissions:
+  oneshotenchants.give:
+    default: op

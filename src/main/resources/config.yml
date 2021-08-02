@@ -1,0 +1,270 @@
+################################################################################
+##################### Classified Enchants by ClassifiedDev #####################
+############################# Version: U2.1.0-beta #############################
+################################################################################
+
+prefix: '&c&lOneShot Enchants &8'
+tinkererTitle: '&8Tinkerer'
+enchantAdminTitle: '&8Enchant Admin'
+
+enchanterMenu:
+  title: '&8Enchanter'
+  size: 27
+  spacer:
+    material: 'STAINED_GLASS_PANE'
+    data: 0
+    name: '&8[OneShot Enchants]'
+    glowing: false
+
+  tier1Book:
+    material: 'INK_SACK'
+    data: '8'
+    name: '&8&7&lCommon Mystery Enchantment &8'
+    lore:
+      - '&7Click to purchase a &7&nCommon&r &7Mystery Enchantment Orb.'
+      - ' '
+      - '&a&lPRICE: &7750 XP'
+    glowing: false
+    price: 750
+    inventorySlot: 11
+  tier2Book:
+    material: 'INK_SACK'
+    data: '10'
+    name: '&8&a&lUncommon Mystery Enchantment &8'
+    lore:
+      - '&7Click to purchase a &a&nUncommon&r &7Mystery Enchantment Orb.'
+      - ' '
+      - '&a&lPRICE: &71,000 XP'
+    glowing: false
+    price: 1000
+    inventorySlot: 12
+  tier3Book:
+    material: 'INK_SACK'
+    data: '12'
+    name: '&8&b&lRare Mystery Enchantment &8'
+    lore:
+      - '&7Click to purchase a &b&nRare&r &7Mystery Enchantment Orb.'
+      - ' '
+      - '&a&lPRICE: &72,500 XP'
+    glowing: false
+    price: 2500
+    inventorySlot: 13
+  tier4Book:
+    material: 'INK_SACK'
+    data: '11'
+    name: '&8&e&lUltimate Mystery Enchantment &8'
+    lore:
+      - '&7Click to purchase a &e&nUltimate&r &7Mystery Enchantment Orb.'
+      - ' '
+      - '&a&lPRICE: &75,000 XP'
+    glowing: false
+    price: 5000
+    inventorySlot: 14
+  tier5Book:
+    material: 'INK_SACK'
+    data: '14'
+    name: '&8&6&lLegendary Mystery Enchantment &8'
+    lore:
+      - '&7Click to purchase a &6&nLegendary&r &7Mystery Enchantment Orb.'
+      - ' '
+      - '&a&lPRICE: &725,000 XP'
+    glowing: false
+    price: 25000
+    inventorySlot: 15
+enchantsMenu:
+  title: '&8OneShot Enchants'
+  size: 9
+  tier1MenuTitle: '&8OneShot Enchants (Common)'
+  tier2MenuTitle: '&8OneShot Enchants (Uncommon)'
+  tier3MenuTitle: '&8OneShot Enchants (Rare)'
+  tier4MenuTitle: '&8OneShot Enchants (Ultimate)'
+  tier5MenuTitle: '&8OneShot Enchants (Legendary)'
+  tier6MenuTitle: '&8OneShot Enchants (Mythic)'
+  tier1Book:
+    material: 'INK_SACK'
+    data: '8'
+    name: '&7&lCommon Enchantments'
+    lore:
+      - '&7Click to view a menu of all'
+      - '&7of the &7&nCommon&r &7enchantments.'
+    glowing: false
+    inventorySlot: 2
+  tier2Book:
+    material: 'INK_SACK'
+    data: '10'
+    name: '&a&lUncommon Enchantments'
+    lore:
+      - '&7Click to view a menu of all'
+      - '&7of the &a&nUncommon&r &7enchantments.'
+    glowing: false
+    inventorySlot: 3
+  tier3Book:
+    material: 'INK_SACK'
+    data: '12'
+    name: '&b&lRare Enchantments'
+    lore:
+      - '&7Click to view a menu of all'
+      - '&7of the &b&nRare&r &7enchantments.'
+    glowing: false
+    inventorySlot: 4
+  tier4Book:
+    material: 'INK_SACK'
+    data: '11'
+    name: '&e&lUltimate Enchantments'
+    lore:
+      - '&7Click to view a menu of all'
+      - '&7of the &e&nUltimate&r &7enchantments.'
+    glowing: false
+    inventorySlot: 5
+  tier5Book:
+    material: 'INK_SACK'
+    data: '14'
+    name: '&c&lLegendary Enchantments'
+    lore:
+      - '&7Click to view a menu of all'
+      - '&7of the &6&nLegendary&r &7enchantments.'
+    glowing: false
+    inventorySlot: 6
+  tier6Book:
+    material: 'INK_SACK'
+    data: '13'
+    name: '&c&lMythic Enchantments'
+    lore:
+      - '&7Click to view a menu of all'
+      - '&7of the &c&nMythic&r &7enchantments.'
+    glowing: false
+    inventorySlot: 13
+
+
+#enchantmentBookMaterial: 'BOOK'
+#enchantmentBookData: 0
+#enchantmentBookGlowing: false
+
+tier1Book:
+  name: '&7&lCommon Mystery Enchantment &7(Right-Click)'
+  lore:
+    - '&7Right click to reveal a random'
+    - '&7&nCommon&r &7enchantment orb.'
+  color: '&7'
+
+tier2Book:
+  name: '&a&lUncommon Mystery Enchantment &7(Right-Click)'
+  lore:
+    - '&7Right click to reveal a random'
+    - '&a&nUncommon&r &7enchantment orb.'
+  color: '&a'
+
+tier3Book:
+  name: '&b&lRare Mystery Enchantment &7(Right-Click)'
+  lore:
+    - '&7Right click to reveal a random'
+    - '&b&nRare&r &7enchantment orb.'
+  color: '&b'
+
+tier4Book:
+  name: '&e&lUltimate Mystery Enchantment &7(Right-Click)'
+  lore:
+    - '&7Right click to reveal a random'
+    - '&e&nUltimate&r &7enchantment orb.'
+  color: '&e'
+
+tier5Book:
+  name: '&c&lUltimate Mystery Enchantment &7(Right-Click)'
+  lore:
+    - '&7Right click to reveal a random'
+    - '&6&nLegendary&r &7enchantment orb.'
+  color: '&6'
+
+tier6Book:
+  name: '&c&lMythic Mystery Enchantment &7(Right-Click)'
+  lore:
+    - '&7Right click to reveal a random'
+    - '&c&nMythic&r &7enchantment orb.'
+  color: '&c'
+
+protectionScroll:
+  material: 'FEATHER'
+  data: '0'
+  name: '&f&lProtection Scroll'
+  lore:
+    - '&7Apply this protection scroll to your'
+    - '&7gear to protect it from being destroyed'
+    - '&7by a failed enchantment orb.'
+    - ' '
+    - '&7&oDrag n drop to item to apply.'
+  glowing: true
+  protectedLore: '&f&lPROTECTED'
+
+organizationScroll:
+  material: 'PAPER'
+  data: '0'
+  name: '&3&lOrganization Scroll'
+  lore:
+    - '&7Apply this scroll to your gear to'
+    - '&7organize the enchantments by tier.'
+    - ''
+    - '&7&oDrag n drop onto item to apply.'
+  glowing: false
+
+renameScroll:
+  material: 'NAME_TAG'
+  data: '0'
+  name: '&e&lRename Scroll &7(Right-Click)'
+  lore:
+    - '&7Use this scroll to rename your gear.'
+  glowing: false
+
+removalScroll:
+  material: 'INK_SACK'
+  data: '0'
+  name: '&8&lDisenchant Scroll'
+  glowing: false
+
+################## Armor Equip Configuration ##################
+# All blocks with an inventory or any blocks that when right clicked shouldn't equip armor.
+################## Armor Equip Configuration ##################
+blocked:
+  - FURNACE
+  - CHEST
+  - BEACON
+  - DISPENSER
+  - DROPPER
+  - HOPPER
+  - WORKBENCH
+  - ENCHANTMENT_TABLE
+  - ENDER_CHEST
+  - ANVIL
+  - BED_BLOCK
+  - FENCE_GATE
+  - SPRUCE_FENCE_GATE
+  - BIRCH_FENCE_GATE
+  - ACACIA_FENCE_GATE
+  - JUNGLE_FENCE_GATE
+  - DARK_OAK_FENCE_GATE
+  - IRON_DOOR_BLOCK
+  - WOODEN_DOOR
+  - SPRUCE_DOOR
+  - BIRCH_DOOR
+  - JUNGLE_DOOR
+  - ACACIA_DOOR
+  - DARK_OAK_DOOR
+  - WOOD_BUTTON
+  - STONE_BUTTON
+  - TRAP_DOOR
+  - IRON_TRAPDOOR
+  - DIODE_BLOCK_OFF
+  - DIODE_BLOCK_ON
+  - REDSTONE_COMPARATOR_OFF
+  - REDSTONE_COMPARATOR_ON
+  - FENCE
+  - SPRUCE_FENCE
+  - BIRCH_FENCE
+  - JUNGLE_FENCE
+  - DARK_OAK_FENCE
+  - ACACIA_FENCE
+  - NETHER_FENCE
+  - BREWING_STAND
+  - CAULDRON
+  - SIGN_POST
+  - WALL_SIGN
+  - SIGN
